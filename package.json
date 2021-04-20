@@ -6,10 +6,13 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/chrome": "^0.0.134",
     "@types/jest": "^26.0.15",
+    "@types/jquery": "^3.5.5",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -17,10 +20,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "rx-start": "react-scripts start",
+    "rx-build": "react-scripts build",
+    "rx-test": "react-scripts test",
+    "rx-eject": "react-scripts eject",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
   },
   "eslintConfig": {
     "extends": [
